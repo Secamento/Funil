@@ -1,0 +1,41 @@
+.chat-container {
+  width: 400px;
+  height: 600px;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto; /* Centraliza a janela de chat */
+}
+
+.messages {
+  flex-grow: 1;
+  padding: 10px;
+  overflow-y: scroll; /* Permite rolagem se houver muitas mensagens */
+}
+
+.user-message {
+  background-color: #d1ffd1;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+.bot-message {
+  background-color: #ffd1d1;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+form {
+  display: flex; /* Flexbox para alinhar input e botão */
+}
+
+input {
+  flex-grow: 1; /* Permite que o input ocupe todo o espaço disponível */
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+}
