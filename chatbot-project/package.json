@@ -1,0 +1,21 @@
+{
+  "name": "chatbot-project",
+  "version": "1.0.0",
+  "description": "Um projeto de chatbot utilizando React e Express.",
+  "main": "backend/app.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "next": "^12.0.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  },
+  "devDependencies": {},
+  "author": "Seu Nome",
+  "license": "MIT"
+}
